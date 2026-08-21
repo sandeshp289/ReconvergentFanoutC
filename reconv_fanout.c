@@ -121,8 +121,8 @@ circuit::circuit(char *cktName)
       fanin_schedule[i]=NULL;
 
     //added by Sandesh for project0
-    visited = new int[count-1];
-    for (j=1; j<count; j++)
+    visited = new int[count];
+    for (j=0; j<count; j++)
 	{
          visited[j] = 0;
 	}
